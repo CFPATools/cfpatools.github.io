@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WebTranslator.Browser.dll",
   "assemblyRootFolder": "managed",
-  "debugLevel": 0,
+  "debugLevel": -1,
   "assets": [
     {
       "behavior": "assembly",
@@ -65,6 +65,10 @@
     },
     {
       "behavior": "assembly",
+      "name": "Avalonia.Diagnostics.dll"
+    },
+    {
+      "behavior": "assembly",
       "name": "Avalonia.Fonts.Inter.dll"
     },
     {
@@ -78,6 +82,10 @@
     {
       "behavior": "assembly",
       "name": "Avalonia.Skia.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Avalonia.Themes.Simple.dll"
     },
     {
       "behavior": "assembly",
@@ -125,7 +133,15 @@
     },
     {
       "behavior": "assembly",
+      "name": "FluentAvalonia.pdb"
+    },
+    {
+      "behavior": "assembly",
       "name": "HarfBuzzSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "HarfBuzzSharp.pdb"
     },
     {
       "behavior": "assembly",
@@ -134,6 +150,38 @@
     {
       "behavior": "assembly",
       "name": "MicroCom.Runtime.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.pdb"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Scripting.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "Microsoft.CodeAnalysis.Scripting.pdb"
     },
     {
       "behavior": "assembly",
@@ -146,6 +194,10 @@
     {
       "behavior": "assembly",
       "name": "SkiaSharp.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "SkiaSharp.pdb"
     },
     {
       "behavior": "assembly",
@@ -833,12 +885,290 @@
     },
     {
       "behavior": "assembly",
+      "name": "WebTranslator.pdb"
+    },
+    {
+      "behavior": "assembly",
       "name": "WebTranslator.Browser.dll"
+    },
+    {
+      "behavior": "assembly",
+      "name": "WebTranslator.Browser.pdb"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll"
+    },
+    {
+      "culture": "cs",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "de",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "es",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "fr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "it",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ja",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ko",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "pl",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "pt-BR",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "ru",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "tr",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hans",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
+    },
+    {
+      "culture": "zh-Hant",
+      "behavior": "resource",
+      "name": "Microsoft.CodeAnalysis.Scripting.resources.dll"
     },
     {
       "virtualPath": "runtimeconfig.bin",
       "behavior": "vfs",
       "name": "supportFiles/0_runtimeconfig.bin"
+    },
+    {
+      "virtualPath": "dotnet.js.symbols",
+      "behavior": "vfs",
+      "name": "supportFiles/1_dotnet.js.symbols"
+    },
+    {
+      "loadRemote": false,
+      "behavior": "icu",
+      "name": "icudt.dat"
     },
     {
       "virtualPath": "/usr/share/zoneinfo/",
