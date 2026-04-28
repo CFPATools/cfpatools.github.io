@@ -1,13 +1,13 @@
 {
   "mainAssemblyName": "WebTranslator.Browser",
   "resources": {
-    "hash": "sha256-161oIj+zIyC/ME7RP4y+VVORoMF1uaFuyN0ou5w8Ygc=",
+    "hash": "sha256-u/AcPCvtiPaATOhss+rjrUMHVM28Cn4nY+RxvE/yBOU=",
     "fingerprinting": {
-      "Avalonia.Base.morspx9die.wasm": "Avalonia.Base.wasm",
+      "Avalonia.Base.wi29qmyhts.wasm": "Avalonia.Base.wasm",
       "Avalonia.Browser.ris9fgmeck.wasm": "Avalonia.Browser.wasm",
       "Avalonia.Controls.ColorPicker.u6pw1maai1.wasm": "Avalonia.Controls.ColorPicker.wasm",
       "Avalonia.Controls.DataGrid.ooflv4b2tg.wasm": "Avalonia.Controls.DataGrid.wasm",
-      "Avalonia.Controls.w883bzdyc3.wasm": "Avalonia.Controls.wasm",
+      "Avalonia.Controls.532l9zejix.wasm": "Avalonia.Controls.wasm",
       "Avalonia.DesignerSupport.1t9vsmn3s4.wasm": "Avalonia.DesignerSupport.wasm",
       "Avalonia.Dialogs.4j06hb6wvw.wasm": "Avalonia.Dialogs.wasm",
       "Avalonia.Markup.a23t00j5tw.wasm": "Avalonia.Markup.wasm",
@@ -67,8 +67,8 @@
       "System.ke1disal2r.wasm": "System.wasm",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "System.Web.HttpUtility.wasm",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "System.Xml.ReaderWriter.wasm",
-      "WebTranslator.Browser.z9guop11ew.wasm": "WebTranslator.Browser.wasm",
-      "WebTranslator.r0xbbm3dgq.wasm": "WebTranslator.wasm",
+      "WebTranslator.Browser.zlb9jqvczs.wasm": "WebTranslator.Browser.wasm",
+      "WebTranslator.bexfg9oc9b.wasm": "WebTranslator.wasm",
       "dotnet.native.dqj9kv4siw.js": "dotnet.native.js",
       "dotnet.native.12xzg8oln6.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -96,11 +96,11 @@
       "System.Runtime.InteropServices.JavaScript.7xdhvwdw4w.wasm": "sha256-uy/7NCbgx0cnLmc/ILkVOIt7+VSFyyyz48c+ifCFW2M="
     },
     "assembly": {
-      "Avalonia.Base.morspx9die.wasm": "sha256-2tfAmhORA9ukq9tCUyQnqvMm9zFgQpa05pBjRIX2DUQ=",
+      "Avalonia.Base.wi29qmyhts.wasm": "sha256-CEcai7w2qYUtZPMex1khLTyi3bHSO090Y0852BkpBs4=",
       "Avalonia.Browser.ris9fgmeck.wasm": "sha256-XXivxl/ljU7VizlgsQdKSroy2PV35gZn1AOT8wkopgA=",
       "Avalonia.Controls.ColorPicker.u6pw1maai1.wasm": "sha256-hiDGpZsH6FkIVLl/8S2/c/g2zhXYGi5XudbNCfE9J6k=",
       "Avalonia.Controls.DataGrid.ooflv4b2tg.wasm": "sha256-WH7chROxVE/pMLQS8rurTsFUrugI33IAGvDxyKag700=",
-      "Avalonia.Controls.w883bzdyc3.wasm": "sha256-gAxvsB4SIOPtZwF9F9zh6GahGdhdjbR1WzFdQjkc0lk=",
+      "Avalonia.Controls.532l9zejix.wasm": "sha256-L03euFcIs4H4Ych923dCb/nP/L5ybJdAh9Hotntk4Wc=",
       "Avalonia.DesignerSupport.1t9vsmn3s4.wasm": "sha256-m9gAR1MIc9KxgfzkLS0i/s3EtSEaBT9zS4UbNu44Za0=",
       "Avalonia.Dialogs.4j06hb6wvw.wasm": "sha256-0JrxPoLTw2/dQISIG6dmNLk1Q8L4wo0YTI5GOBecwWY=",
       "Avalonia.Markup.a23t00j5tw.wasm": "sha256-PtsYOvOkR6+OjTqtxS9IjyOaCdasZXOnFj/LfMA+rO4=",
@@ -158,8 +158,8 @@
       "System.ke1disal2r.wasm": "sha256-pJVfOQBBtR7pVRj/hsDjW2tSJr3eMSs6yVHVGbiVf2s=",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "sha256-hTY6+btPi4Ddo51DwAxEu/gfK0GhZ26vKFWPVh66/Yc=",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "sha256-fVY1yEtalL4TCktpjC51xQRIvV6d7WlYFukFwZkGCgc=",
-      "WebTranslator.Browser.z9guop11ew.wasm": "sha256-GeYtQSZfoM+XBtOuIt+MR3iZrublyDXu+8sxj5hWRnE=",
-      "WebTranslator.r0xbbm3dgq.wasm": "sha256-FRHlBmd7Nj7fwiY5X3CRvvtgMyUUUyATcCSsjRsqCTA="
+      "WebTranslator.Browser.zlb9jqvczs.wasm": "sha256-By7j5EFfR6YewNdyJNcX8yfPvi3UCmD6ewWIMQfJ1CE=",
+      "WebTranslator.bexfg9oc9b.wasm": "sha256-LVURLKKA48yJZxCBN5NTaOgK6zVamkMdL9Ihit3FSGk="
     }
   },
   "cacheBootResources": true,
