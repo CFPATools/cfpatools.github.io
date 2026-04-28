@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WebTranslator.Browser",
   "resources": {
-    "hash": "sha256-tQCMIxHzLgc0X2k+Dj2BkaZeynZZfDF90LThaSqK2F8=",
+    "hash": "sha256-VzL9NJjY4DGn8/L84h3B3Nkr1z7kccilxODU0gZDrsE=",
     "fingerprinting": {
       "Avalonia.Base.morspx9die.wasm": "Avalonia.Base.wasm",
       "Avalonia.Browser.ris9fgmeck.wasm": "Avalonia.Browser.wasm",
@@ -67,8 +67,8 @@
       "System.ke1disal2r.wasm": "System.wasm",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "System.Web.HttpUtility.wasm",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "System.Xml.ReaderWriter.wasm",
-      "WebTranslator.Browser.r5dq98frp0.wasm": "WebTranslator.Browser.wasm",
-      "WebTranslator.h8g6zxdszm.wasm": "WebTranslator.wasm",
+      "WebTranslator.Browser.du91w5bd0p.wasm": "WebTranslator.Browser.wasm",
+      "WebTranslator.dcoj2ggvc0.wasm": "WebTranslator.wasm",
       "dotnet.native.l2ztnow517.js": "dotnet.native.js",
       "dotnet.native.iik3oteaoo.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
@@ -150,8 +150,8 @@
       "System.ke1disal2r.wasm": "sha256-pJVfOQBBtR7pVRj/hsDjW2tSJr3eMSs6yVHVGbiVf2s=",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "sha256-hTY6+btPi4Ddo51DwAxEu/gfK0GhZ26vKFWPVh66/Yc=",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "sha256-fVY1yEtalL4TCktpjC51xQRIvV6d7WlYFukFwZkGCgc=",
-      "WebTranslator.Browser.r5dq98frp0.wasm": "sha256-4cGF3D8RDKSHd0fTVswG2/teP+EOs3bRujDTWfNDOcg=",
-      "WebTranslator.h8g6zxdszm.wasm": "sha256-T3Ft7H9yGcK4E9x0lHhl8FR6VXrTyKRFGdDquMIWrLY="
+      "WebTranslator.Browser.du91w5bd0p.wasm": "sha256-FSy9JOzC5X9fbQRi8uZJAWPBnrqAxOylPnQ2IPG3erA=",
+      "WebTranslator.dcoj2ggvc0.wasm": "sha256-/UOiRL7WfNBfyjA2BXT6B6jXlH/BePRLR21HakTA+8U="
     }
   },
   "cacheBootResources": true,
