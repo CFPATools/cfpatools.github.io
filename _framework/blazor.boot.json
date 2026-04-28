@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WebTranslator.Browser",
   "resources": {
-    "hash": "sha256-5NA6JbVNlHviQyyXjKzcrYxrmSQX3ubIhNW4L6EaZ0k=",
+    "hash": "sha256-HSVW1mSsrSDzzz0P2dgmvFfQ7S2cxcudbMuRcUisgXA=",
     "fingerprinting": {
       "Avalonia.Base.morspx9die.wasm": "Avalonia.Base.wasm",
       "Avalonia.Browser.ris9fgmeck.wasm": "Avalonia.Browser.wasm",
@@ -49,7 +49,7 @@
       "System.Net.Sockets.3i90z0jtq6.wasm": "System.Net.Sockets.wasm",
       "System.Numerics.Vectors.kqaklf26w9.wasm": "System.Numerics.Vectors.wasm",
       "System.ObjectModel.rhmkx8wjed.wasm": "System.ObjectModel.wasm",
-      "System.Private.CoreLib.bvyzwr0run.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.kofpru3mwo.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.h2q7f3y0t8.wasm": "System.Private.Uri.wasm",
       "System.Private.Xml.ablcl9h9nt.wasm": "System.Private.Xml.wasm",
       "System.Runtime.CompilerServices.Unsafe.9bikpsqtoo.wasm": "System.Runtime.CompilerServices.Unsafe.wasm",
@@ -67,24 +67,32 @@
       "System.ke1disal2r.wasm": "System.wasm",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "System.Web.HttpUtility.wasm",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "System.Xml.ReaderWriter.wasm",
-      "WebTranslator.Browser.6ehg78bqsm.wasm": "WebTranslator.Browser.wasm",
-      "WebTranslator.6ai4ddnazn.wasm": "WebTranslator.wasm",
-      "dotnet.native.l2ztnow517.js": "dotnet.native.js",
-      "dotnet.native.iik3oteaoo.wasm": "dotnet.native.wasm",
+      "WebTranslator.Browser.jeb0a2vurz.wasm": "WebTranslator.Browser.wasm",
+      "WebTranslator.2lrgdieh53.wasm": "WebTranslator.wasm",
+      "dotnet.native.dqj9kv4siw.js": "dotnet.native.js",
+      "dotnet.native.12xzg8oln6.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.runtime.pu7sbjsy59.js": "dotnet.runtime.js"
+      "dotnet.runtime.pu7sbjsy59.js": "dotnet.runtime.js",
+      "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
+      "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
+      "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat"
     },
     "jsModuleNative": {
-      "dotnet.native.l2ztnow517.js": "sha256-M5LHPOEauIbRwzGG0yLYe9wJnBzLlICJRhYKmCGdwMQ="
+      "dotnet.native.dqj9kv4siw.js": "sha256-24Mh1PV6SkjLJkxLD6ITppVNBz5cx09Ow1TGO2i9jcU="
     },
     "jsModuleRuntime": {
       "dotnet.runtime.pu7sbjsy59.js": "sha256-wW0L1H42TfMatybe1vKm/k57XP7qqXWX5r7AbCRx5JQ="
     },
     "wasmNative": {
-      "dotnet.native.iik3oteaoo.wasm": "sha256-ZmkoKMnuk4nU984LWzEzf7T68P6+Wrzi4mTV/VYGN8E="
+      "dotnet.native.12xzg8oln6.wasm": "sha256-GYJsnFJGrVsqiszSkpmbd/lsEidsTrP+WJXRJ4zP+sk="
+    },
+    "icu": {
+      "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
+      "icudt_EFIGS.tptq2av103.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
+      "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.bvyzwr0run.wasm": "sha256-uTjIiOsM8lzO98ko/B2tYNxNUcmcYaGc6aMwl9y6YcQ=",
+      "System.Private.CoreLib.kofpru3mwo.wasm": "sha256-XAF0oikTMQ7/z6M5GWqDlS0+p9AhBGTnmkuUql6aLrc=",
       "System.Runtime.InteropServices.JavaScript.7xdhvwdw4w.wasm": "sha256-uy/7NCbgx0cnLmc/ILkVOIt7+VSFyyyz48c+ifCFW2M="
     },
     "assembly": {
@@ -150,12 +158,12 @@
       "System.ke1disal2r.wasm": "sha256-pJVfOQBBtR7pVRj/hsDjW2tSJr3eMSs6yVHVGbiVf2s=",
       "System.Web.HttpUtility.79vdejzrv7.wasm": "sha256-hTY6+btPi4Ddo51DwAxEu/gfK0GhZ26vKFWPVh66/Yc=",
       "System.Xml.ReaderWriter.5i7ygz4l7g.wasm": "sha256-fVY1yEtalL4TCktpjC51xQRIvV6d7WlYFukFwZkGCgc=",
-      "WebTranslator.Browser.6ehg78bqsm.wasm": "sha256-8oxfZnBiHzehDsLUMWRUsl8EGt7A/GgBgJl+RmbTBL4=",
-      "WebTranslator.6ai4ddnazn.wasm": "sha256-cll9XVr0z0q9u63RbI/tfz7QSZDg6TCAwiePipaqs50="
+      "WebTranslator.Browser.jeb0a2vurz.wasm": "sha256-uzsrJDD+AuJevo/I2+X5MhGgkZBqZ6qia4ZEesYuI2U=",
+      "WebTranslator.2lrgdieh53.wasm": "sha256-WjvhSh1H6HnQd7hsJLHCsICDQPy2mJZx/psr2p2Ben4="
     }
   },
   "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
-  "globalizationMode": "invariant"
+  "globalizationMode": "sharded"
 }
